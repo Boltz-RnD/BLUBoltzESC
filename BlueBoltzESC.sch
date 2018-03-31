@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="8.7.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -22255,7 +22256,9 @@ naming: grid - package width</description>
 <part name="U$3" library="BR-Eagle-Library" deviceset="ACS7XX" device="12-WFQFN"/>
 <part name="U$4" library="BR-Eagle-Library" deviceset="HEADER-6" device="2MM"/>
 <part name="U$8" library="BR-Eagle-Library" deviceset="HEADER-12" device="2MM"/>
-<part name="U1" library="SparkFun-DigitalIC" deviceset="ATMEGA168" device="" value="ATMEGA168"/>
+<part name="U1" library="SparkFun-DigitalIC" deviceset="ATMEGA168" device="" value="ATMEGA168">
+<attribute name="SPICEPREFIX" value="X"/>
+</part>
 <part name="R1" library="resistor" deviceset="R-US_" device="0207/10" value="47K"/>
 <part name="R2" library="resistor" deviceset="R-US_" device="0207/10" value="47K"/>
 <part name="R3" library="resistor" deviceset="R-US_" device="0207/10" value="47K"/>
@@ -23132,6 +23135,7 @@ naming: grid - package width</description>
 <wire x1="38.1" y1="142.24" x2="38.1" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="R36" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="152.4" x2="40.64" y2="152.4" width="0.1524" layer="91"/>
+<junction x="38.1" y="142.24"/>
 </segment>
 </net>
 <net name="VCC5V-2" class="0">
@@ -23840,12 +23844,20 @@ Internal ENable pullup</text>
 <approved hash="102,2,38.1,27.94,GND,L_GND,,,,"/>
 <approved hash="102,3,187.96,137.16,GND,L_GND,,,,"/>
 <approved hash="102,3,177.8,55.88,GND,L_GND,,,,"/>
+<approved hash="201,3,177.8,55.88,GND,L_GND\, GND,,,,"/>
+<approved hash="201,3,187.96,137.16,GND,L_GND\, GND,,,,"/>
 <approved hash="102,4,193.04,88.9,GND,L_GND,,,,"/>
 <approved hash="102,4,223.52,88.9,GND,L_GND,,,,"/>
+<approved hash="201,4,223.52,88.9,GND,GND\, L_GND,,,,"/>
+<approved hash="201,4,193.04,88.9,GND,GND\, L_GND,,,,"/>
 <approved hash="102,5,111.76,91.44,GND,L_GND,,,,"/>
 <approved hash="104,3,66.04,142.24,U$3,VCC,N$14,,,"/>
 <approved hash="104,3,66.04,134.62,U$3,GND,N$13,,,"/>
-<approved hash="113,2,28.7613,106.68,Q10,,,,,"/>
+<approved hash="106,2,106.68,93.98,MISO,,,,,"/>
+<approved hash="106,2,106.68,127,RX,,,,,"/>
+<approved hash="106,2,106.68,91.44,SCK,,,,,"/>
+<approved hash="106,2,106.68,124.46,TX,,,,,"/>
+<approved hash="113,2,28.6664,106.68,Q10,,,,,"/>
 </errors>
 </schematic>
 </drawing>
