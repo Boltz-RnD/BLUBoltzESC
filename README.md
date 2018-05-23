@@ -1,4 +1,4 @@
-# BLUBoltzESC
+# DarkESC
 
 A Remixed Board Design from The BlueESC with a large footprint and Utilizing easy to source components for a DIYer.
 
