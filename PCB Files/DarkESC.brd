@@ -3,7 +3,7 @@
 <eagle version="9.0.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -156,10 +156,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="83.0634" y2="-0.3556" width="0" layer="20"/>
-<wire x1="83.0634" y1="-0.3556" x2="82.8348" y2="78.9688" width="0" layer="20"/>
-<wire x1="82.8348" y1="78.9688" x2="-0.2286" y2="79.3244" width="0" layer="20"/>
-<wire x1="-0.2286" y1="79.3244" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="-0.3302" y1="-0.3048" x2="83.0634" y2="-0.3556" width="0" layer="20"/>
+<wire x1="83.0634" y1="-0.3556" x2="82.9618" y2="79.3752" width="0" layer="20"/>
+<wire x1="82.9618" y1="79.3752" x2="-0.2286" y2="79.3244" width="0" layer="20"/>
+<wire x1="-0.2286" y1="79.3244" x2="-0.3302" y2="-0.3048" width="0" layer="20"/>
 <rectangle x1="56.2102" y1="18.3134" x2="63.0682" y2="24.892" layer="16"/>
 <text x="42.545" y="73.0758" size="5.08" layer="21" font="vector" align="center">DarkESC</text>
 <text x="57.785" y="71.7042" size="2.1844" layer="21" font="vector" align="center">60A</text>
