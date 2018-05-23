@@ -14374,10 +14374,6 @@ Block, Siemens and generic&lt;p&gt;
 <text x="127" y="177.8" size="3.81" layer="94">Logic Board</text>
 <text x="33.02" y="116.84" size="2.1844" layer="94">Power Decoupling</text>
 <text x="134.62" y="116.84" size="2.1844" layer="94">5V Power</text>
-<text x="137.16" y="93.472" size="1.778" layer="97">TPS70950
-150 mA
-30V input
-Internal ENable pullup</text>
 </plain>
 <instances>
 <instance part="FRAME6" gate="G$1" x="0" y="0"/>
@@ -15029,10 +15025,6 @@ Internal ENable pullup</text>
 </schematic>
 </drawing>
 <compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
